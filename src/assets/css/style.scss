@@ -1,0 +1,31 @@
+@import "1px";
+*{
+  box-sizing: border-box;
+}
+body{
+  font-size: 16px;
+  background: #fff;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: PingFangSC-Regular,sans-serif,"Arial","Microsoft YaHei","黑体","宋体";
+  #loading{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    height: 100vh;
+    img{
+      width: 104px;
+      height: 122px;
+      transform: translateY(150px);
+    }
+  }
+}
+
+.wrapMobile .van-field__body{
+    height: 100%;
+}
